@@ -74,3 +74,17 @@ header nav button:focus, .btn:focus{
     position: relative;
     bottom: 10px;
 }
+
+.section-container{
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container {
+    width: 150px;
+    height: 200px;
+    border: 2px solid black;
+}
