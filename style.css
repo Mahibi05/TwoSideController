@@ -12,6 +12,7 @@ header nav{
     justify-content: space-around;
     align-items: center;
     border-bottom: 2px solid black;
+     user-select: none;
 }
 header nav img{
     border: 2px solid black;
@@ -37,12 +38,14 @@ header nav ul li:hover{
     font-size: 20px;
     position: relative;
     bottom: 10px;
+   
 }
 header nav ul li:focus{
     color: red;
     font-size: 20px;
     position: relative;
     bottom: 10px;
+    user-select: none;
 }
 
 
@@ -76,6 +79,7 @@ header nav button:focus, .btn:focus{
 }
 
 .section-container{
+     user-select: none;
     width: 80%;
     margin: 10px auto;
     display: flex;
