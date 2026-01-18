@@ -38,14 +38,39 @@ header nav ul li:hover{
     position: relative;
     bottom: 10px;
 }
+header nav ul li:focus{
+    color: red;
+    font-size: 20px;
+    position: relative;
+    bottom: 10px;
+}
 
 
 header nav button, .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
     font-size: 20px;
-    padding: 3px 30px;
+    padding: 8px 10px;
     border: none;
     border-radius: 20px;
     background-color: rgb(0, 0, 0);
     color: white;
     cursor: pointer;
+    transition: 1.5s;
+}
+header nav button:hover, .btn:hover{
+    color: red;
+    font-size: 20px;
+    position: relative;
+    bottom: 10px;
+    color: red;
+}
+
+header nav button:focus, .btn:focus{
+    color: rgb(0, 238, 255);
+    font-size: 20px;
+    position: relative;
+    bottom: 10px;
 }
